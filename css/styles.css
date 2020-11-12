@@ -1,11 +1,12 @@
 body {
-
+  font-family: "Montserrat";
 }
 
 h1 {
   font-family: "Montserrat-Black";
   font-size: 3rem;
   line-height: 1.5;
+  font-weight: bold;
 }
 
 .container-fluid{
@@ -14,4 +15,12 @@ h1 {
 
 #title {
   background-color: #ff4c68;
+  color: #fff;
+}
+
+/* Navbar */
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
 }
