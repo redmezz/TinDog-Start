@@ -9,6 +9,23 @@ h1 {
   font-weight: bold;
 }
 
+h3 {
+  font-family: "Arial-Black";
+  font-size: 1.5rem;
+}
+
+h2 {
+  font-family: "Montserrat-Black";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+p, li {
+  color: #8f8f8f;
+}
+
+/* Title Page */
+
 .container-fluid{
   padding: 3% 15%;
 }
@@ -54,67 +71,60 @@ h1 {
 
 /* Features */
 
-.features-section {
+#features {
   text-align: center;
-  margin: 10rem auto 10rem auto;
+  margin: 7% 15%;
 }
 
-.easy-button {
-  font-size: 2.5rem;
-  padding-bottom: .5rem;
+ .features-button {
+  padding-bottom: 1rem;
+  color: #ef8172;
 }
 
-.easy-button:hover {
+ .features-button:hover {
   color: #ff4c68;
 }
 
-.easy-title {
-  font-family: "Arial-Black";
-  font-size: 1.5rem;
-  padding-bottom: .5rem;
+.icon {
+  padding: 5%;
 }
 
-.easy-p {
-  width: 50%;
-  margin: auto;
+/* Testimonials Section */
+
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
 }
 
-.elite-button {
-  font-size: 2.5rem;
-  padding-bottom: .5rem;
+.carousel-item {
+  padding: 7% 15%;
 }
 
-.elite-button:hover {
-  color: #ff4c68;
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
 }
 
-.elite-title {
-  font-family: "Arial-Black";
-  font-size: 1.5rem;
-  padding-bottom: .5rem;
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
 }
 
-.elite-p {
-  width: 58%;
-  margin: auto;
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
 }
 
-.guaranteed-button {
-  font-size: 2.5rem;
-  padding-bottom: .5rem;
+/* Pricing Section */
+
+.pricing-container {
+  padding: 7% 15%;
 }
 
-.guaranteed-button:hover {
-  color: #ff4c68;
-}
-
-.guaranteed-title {
-  font-family: "Arial-Black";
-  font-size: 1.5rem;
-  padding-bottom: .5rem;
-}
-
-.guaranteed-p {
-  width: 70%;
-  margin: auto;
+.pricing-title {
+  text-align: center;
+  
 }
