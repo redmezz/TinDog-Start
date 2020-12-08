@@ -66,19 +66,16 @@ li {
   font-family: "Montserrat-Light";
 }
 
-/* Download Buttons */
-
 .download-btn {
   margin: 3% 5% 3% 0;
 }
 
-/* Landing page */
-
 .iphone-img {
   transform: rotate(25deg);
-  width: 40%;
+  width: 50%;
   height: auto;
   position: absolute;
+  right: 30%;
 }
 
 /* Features */
@@ -144,4 +141,17 @@ li {
 
 .pricing-col {
   padding: 3% 2%;
+}
+
+/* Media Queries */
+
+@media (max-width: 1028px) {
+  .iphone-img {
+    position: static;
+    transform: rotate(0);
+  }
+
+  #title {
+    text-align: center;
+  }
 }
